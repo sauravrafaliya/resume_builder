@@ -1,16 +1,36 @@
-# resume_builder
 
-A new Flutter project.
+# Resume Builder
 
-## Getting Started
+6 step to build resume
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Third party packages Used
+
+- cupertino_icons: ^1.0.2
+- get: ^4.6.6
+- flutter_svg: ^2.0.9
+- responsive_builder: ^0.7.0
+
+
+## Run
+
+To deploy this project run
+
+```bash
+  flutter pub get
+```
+
+
+```bash
+  flutter run
+```
+
+### Deploy to localhost server
+
+```bash
+  flutter run -d web-server --web-port 8080 --web-hostname <YOUR IP ADDRESS>
+```
+
+
